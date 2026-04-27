@@ -1,20 +1,31 @@
 <script setup lang="ts">
+import Footer from '~/components/footer.vue';
+import Header from '~/components/header.vue';
 
-const { t, locale } = useI18n()
-const { locales } = useI18n()
+const { t } = useI18n()
 
 </script>
 
 <template>
-    <div>
-        <form>
-            <label for="locale-select">{{ $t('language') }}: </label>
-            <select id="locale-select" v-model="locale">
-                <option v-for="locale in locales" :key="locale.code" :value="locale.code">
-                    {{ locale.name }}
-                </option>
-            </select>
-        </form>
-        <h1 class="text-3xl text-blue-500">{{ t('welcome') }}</h1>
-    </div>
+    <Header class="sticky top-0 z-50" />
+
+    <main>
+        <section class="h-screen flex items-center justify-center bg-white">
+            <h1 class="text-3xl text-blue-500">{{ t('welcome') }}</h1>
+        </section>
+
+        <section class="h-screen flex items-center justify-center bg-gray-50">
+            <!-- Section 2 content -->
+        </section>
+
+        <section class="h-screen flex items-center justify-center bg-blue-50">
+            <!-- Section 3 content -->
+        </section>
+
+        <section class="h-screen flex items-center justify-center bg-gray-100">
+            <!-- Section 4 content -->
+        </section>
+    </main>
+
+    <Footer />
 </template>

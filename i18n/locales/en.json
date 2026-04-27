@@ -1,4 +1,17 @@
 {
     "language": "English",
-    "welcome": "Welcome"
+    "welcome": "Welcome",
+    "chlat": "Chlat",
+    "footer_description": "ⓒ Chlat 2026. Jump into the learning.",
+    "about_us": "About Us",
+    "mission": "Mission",
+    "contact_us": "Contact Us",
+    "privacy_and_terms": "Privacy and Terms",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "social_media": "Social Media",
+    "facebook": "Facebook",
+    "telegram": "Telegram",
+    "youtube": "Youtube",
+    "tiktok": "Tiktok"
 }
