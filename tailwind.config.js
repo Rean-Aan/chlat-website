@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Suwannaphum', 'serif'],
+        en: ['Inter', 'sans-serif'],
+        km: ['Suwannaphum', 'sans-serif'],
       },
       colors: {
         primary: '#0388D3',

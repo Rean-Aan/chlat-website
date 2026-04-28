@@ -13,5 +13,27 @@
     "facebook": "Facebook",
     "telegram": "Telegram",
     "youtube": "Youtube",
-    "tiktok": "Tiktok"
+    "tiktok": "Tiktok",
+    "homepage": {
+        "hero": {
+            "title": "Watch, Learn, and Play, All in One App!",
+            "description": "Empower your child with Cambodia’s leading educational app. Featuring certified lessons and interactive games for the next generation of learners."
+        },
+        "watch": {
+            "title": "Watch",
+            "description": "Access hundreds of fun, educational videos that make learning feel like play. We take safety seriously—that’s why our core content is officially certified by MoEYS, giving you the confidence that your child is learning from the best resources in Cambodia."
+        },
+        "learn": {
+            "title": "Learn",
+            "description": "Our interactive exercises cover reading, writing, and listening. Best of all, our curriculum is designed in harmony with Ministry of Education, Youth and Sport (MoEYS) standards, providing a professional-grade education through a playful, modern interface that kids actually love to use."
+        },
+        "play": {
+            "title": "Create & Play",
+            "description": "Our Play feature is a digital playground where imagination knows no bounds. Whether it’s painting a masterpiece with our vibrant coloring tools, drawing from scratch, or exploring educational mini-games, your child is building more than just art—they’re building confidence. It’s the perfect way to encourage self-expression and creative thinking in a safe, mess-free environment!"
+        },
+        "parental_dashboard": {
+            "title": "Parental Dashboard",
+            "description": "Gain full visibility into your child’s journey. Track their Watch history and favorites, monitor Learn progress, and see their creative activity in the Play feature—all in one place."
+        }
+    }
 }
