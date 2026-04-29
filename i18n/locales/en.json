@@ -43,5 +43,19 @@
             "title": "Parental Dashboard",
             "description": "Gain full visibility into your child’s journey. Track their Watch history and favorites, monitor Learn progress, and see their creative activity in the Play feature—all in one place."
         }
+    },
+    "missionpage": {
+        "section_1": {
+            "title": "Build Digital Infrastructures",
+            "description": "to enable learning in Primary Education entertaining, empowering and accessible for children through the power of technology."
+        },
+        "section_2": {
+            "title": "We make learning fun...",
+            "description": "fun is our foundation. We use the power of play to make complex lessons simple and interactive. By turning primary education into an engaging digital experience, we ensure that every child stays motivated to learn, explore, and grow."
+        },
+        "section_3": {
+            "title": "Safe Screens, Happy Parents",
+            "description": "Your child’s safety is our highest priority. Our platform is built to be a \"walled garden\"—a secure space where everything is checked and verified. Through our parental dashboard, you stay in total control, allowing you to relax while your child explores a world of learning designed specifically for their age and culture."
+        }
     }
 }

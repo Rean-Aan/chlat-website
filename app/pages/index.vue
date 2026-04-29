@@ -8,8 +8,6 @@ const { t } = useI18n()
 </script>
 
 <template>
-    <Header class="sticky top-0 z-50" />
-
     <main>
         <SectionHero :title="t('homepage.hero.title')" :description="t('homepage.hero.description')"
             image="/images/fun-learning.png" image-position="right" />
@@ -45,6 +43,4 @@ const { t } = useI18n()
             :description="t('homepage.parental_dashboard.description')" image="/images/parental-dashboard-feature.png"
             image-position="right" />
     </main>
-
-    <Footer />
 </template>

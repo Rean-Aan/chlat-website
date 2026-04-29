@@ -20,7 +20,7 @@ const localePath = useLocalePath()
 
                 <!-- About Us -->
                 <div class="space-y-3">
-                    <p class="text-lg lg:text-2xl font-semibold">{{ t('about_us') }}</p>
+                    <p class="text-lg lg:text-2xl">{{ t('about_us') }}</p>
                     <div class="flex flex-col gap-2 text-md font-thin opacity-80">
                         <NuxtLink :to="localePath('/mission')" class="hover:opacity-100 transition-opacity">{{
                             t('mission') }}</NuxtLink>
@@ -31,18 +31,18 @@ const localePath = useLocalePath()
 
                 <!-- Privacy and Terms -->
                 <div class="space-y-3">
-                    <p class="text-lg lg:text-2xl font-semibold">{{ t('privacy_and_terms') }}</p>
+                    <p class="text-lg lg:text-2xl">{{ t('privacy_and_terms') }}</p>
                     <div class="flex flex-col gap-2 text-md font-thin opacity-80">
                         <NuxtLink :to="localePath('/privacy')" class="hover:opacity-100 transition-opacity">{{
                             t('privacy') }}</NuxtLink>
                         <NuxtLink :to="localePath('/terms')" class="hover:opacity-100 transition-opacity">{{ t('terms')
-                        }}</NuxtLink>
+                            }}</NuxtLink>
                     </div>
                 </div>
 
                 <!-- Social Media -->
                 <div class="space-y-3 col-span-2 lg:col-span-1">
-                    <p class="text-lg lg:text-2xl font-semibold">{{ t('social_media') }}</p>
+                    <p class="text-lg lg:text-2xl">{{ t('social_media') }}</p>
                     <div class="flex flex-col gap-2 text-md font-thin opacity-80">
                         <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('facebook') }}</NuxtLink>
                         <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('telegram') }}</NuxtLink>
