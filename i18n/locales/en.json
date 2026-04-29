@@ -14,7 +14,7 @@
     "telegram": "Telegram",
     "youtube": "Youtube",
     "tiktok": "Tiktok",
-    "homepage": {
+    "home_page": {
         "hero": {
             "title": "Watch, Learn, and Play, All in One App!",
             "description": "Empower your child with Cambodia’s leading educational app. Featuring certified lessons and interactive games for the next generation of learners."
@@ -44,7 +44,7 @@
             "description": "Gain full visibility into your child’s journey. Track their Watch history and favorites, monitor Learn progress, and see their creative activity in the Play feature—all in one place."
         }
     },
-    "missionpage": {
+    "mission_page": {
         "section_1": {
             "title": "Build Digital Infrastructures",
             "description": "to enable learning in Primary Education entertaining, empowering and accessible for children through the power of technology."
@@ -57,5 +57,17 @@
             "title": "Safe Screens, Happy Parents",
             "description": "Your child’s safety is our highest priority. Our platform is built to be a \"walled garden\"—a secure space where everything is checked and verified. Through our parental dashboard, you stay in total control, allowing you to relax while your child explores a world of learning designed specifically for their age and culture."
         }
+    },
+    "contact_us_page": {
+        "title": "Other way to connect",
+        "description": "We’re available Monday through Friday, 9am to 5pm Frog time!",
+        "email": "Email Us",
+        "our_office": "Our Pound",
+        "our_office_address": "We didn't have a pound yet, but we are in Phnom Penh, Cambodia!",
+        "send_us_a_message": "Send Us a Message",
+        "your_name": "Your Name",
+        "your_email": "Your Email",
+        "message": "How can we help?",
+        "send_message": "Send Message"
     }
 }

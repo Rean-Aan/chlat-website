@@ -59,7 +59,7 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', handleOutsideCli
                             class="flex items-center gap-2.5 w-full px-3 py-2 text-sm hover:bg-gray-50 transition-colors"
                             :class="{ 'bg-gray-50 font-semibold': locale === loc.code }">
                             <span>{{ loc.flag }}</span>
-                            <span>{{ loc.name }}</span>
+                            <span class="font-en">{{ loc.name }}</span>
                         </button>
                     </div>
                 </Transition>
