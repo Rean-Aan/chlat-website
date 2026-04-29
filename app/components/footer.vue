@@ -36,7 +36,7 @@ const localePath = useLocalePath()
                         <NuxtLink :to="localePath('/privacy')" class="hover:opacity-100 transition-opacity">{{
                             t('privacy') }}</NuxtLink>
                         <NuxtLink :to="localePath('/terms')" class="hover:opacity-100 transition-opacity">{{ t('terms')
-                            }}</NuxtLink>
+                        }}</NuxtLink>
                     </div>
                 </div>
 
@@ -44,10 +44,14 @@ const localePath = useLocalePath()
                 <div class="space-y-3 col-span-2 lg:col-span-1">
                     <p class="text-lg lg:text-2xl">{{ t('social_media') }}</p>
                     <div class="flex flex-col gap-2 text-md font-thin opacity-80">
-                        <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('facebook') }}</NuxtLink>
-                        <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('telegram') }}</NuxtLink>
-                        <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('youtube') }}</NuxtLink>
-                        <NuxtLink to="#" class="hover:opacity-100 transition-opacity">{{ t('tiktok') }}</NuxtLink>
+                        <NuxtLink to="https://www.facebook.com/profile.php?id=61580408446091" target="blank"
+                            class="hover:opacity-100 transition-opacity">{{ t('facebook') }}</NuxtLink>
+                        <NuxtLink to="https://telegram.me/REAN_AAN" target="blank"
+                            class="hover:opacity-100 transition-opacity">{{ t('telegram') }}</NuxtLink>
+                        <NuxtLink to="https://www.youtube.com/@chlatapp" target="blank"
+                            class="hover:opacity-100 transition-opacity">{{ t('youtube') }}</NuxtLink>
+                        <NuxtLink to="https://www.tiktok.com/@chlat_app" target="blank"
+                            class="hover:opacity-100 transition-opacity">{{ t('tiktok') }}</NuxtLink>
                     </div>
                 </div>
 
