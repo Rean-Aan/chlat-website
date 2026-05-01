@@ -1,4 +1,6 @@
 {
+    "site_name": "Chlat",
+    "site_description": "Empower your child with Cambodia’s leading educational app. Featuring certified lessons and interactive games for the next generation of learners.",
     "language": "English",
     "welcome": "Welcome",
     "chlat": "Chlat",
@@ -14,6 +16,9 @@
     "telegram": "Telegram",
     "youtube": "Youtube",
     "tiktok": "Tiktok",
+    "last_update_date": "Last update",
+    "error_404": "Woops! You jump into the wrong pound.",
+    "error_404_description": "Looks like this page hopped away. Try checking the URL or heading back to the homepage.",
     "home_page": {
         "hero": {
             "title": "Watch, Learn, and Play, All in One App!",

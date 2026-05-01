@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-    <section class="h-screen flex items-center justify-center bg-white">
+    <section class="h-screen mx-4 flex items-center justify-center bg-white">
         <div class="mx-auto space-y-4">
             <div>
                 <h1 class="text-4xl lg:text-[48px] text-primary font-bold leading-tight">

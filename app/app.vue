@@ -11,13 +11,30 @@ const { locale } = useI18n()
 useHead({
   htmlAttrs: {
     lang: computed(() => locale.value)
-  }
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/logo.png'
+    }
+  ]
 })
 
 useSeoMeta({
-  ogSiteName: t('site_name'),
+  title: t('site_name'),
+  description: t('site_description'),
+  ogTitle: t('site_name'),
   ogDescription: t('site_description'),
-  ogImage: 'https://yoursite.com/logo.png',
+  ogImage: '/images/social-preview.png',
+  ogUrl: 'https://chlat.app',
+  ogType: 'website',
+  ogSiteName: 'Chlat',
   twitterCard: 'summary_large_image',
+  twitterImage: '/images/social-preview.png',
+  twitterSite: '@chlat',
+  twitterTitle: t('site_name'),
+  twitterDescription: t('site_description'),
 })
+
 </script>
