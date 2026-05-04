@@ -47,7 +47,12 @@
         "parental_dashboard": {
             "title": "Parental Dashboard",
             "description": "Gain full visibility into your child’s journey. Track their Watch history and favorites, monitor Learn progress, and see their creative activity in the Play feature—all in one place."
-        }
+        },
+        "download_section": {
+            "title": "Start Your Child’s Adventure Today",
+            "description": "Join thousands of children learning the fun way with Chlat."
+        },
+        "get_the_app": "Get the App"
     },
     "mission_page": {
         "section_1": {

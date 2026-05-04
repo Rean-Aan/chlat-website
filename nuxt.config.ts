@@ -22,5 +22,11 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
       { code: 'km', language: 'km-KH', name: 'ខ្មែរ', file: 'km.json' }
     ],
-  }
+  },
+
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth',
+    },
+  },
 })

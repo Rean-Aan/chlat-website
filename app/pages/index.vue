@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Footer from '~/components/footer.vue';
-import Header from '~/components/header.vue';
 import SectionHero from '~/components/SectionHero.vue';
 
 const { t } = useI18n()
@@ -42,5 +40,32 @@ const { t } = useI18n()
         <SectionHero :title="t('home_page.parental_dashboard.title')"
             :description="t('home_page.parental_dashboard.description')" image="/images/parental-dashboard-feature.png"
             image-position="right" />
+
+        <section id="get-the-app" class="min-h-screen flex justify-center items-center bg-[#c7eaff] px-6 py-16">
+            <div class="flex flex-col items-center gap-6 text-center max-w-2xl mx-auto">
+                <img src="/images/lotus-leaf-left.png" alt="" class="w-20 md:w-32">
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-3xl md:text-4xl lg:text-[48px] text-primary font-bold leading-tight">
+                        {{ $t('home_page.download_section.title') }}
+                    </h1>
+                    <p class="text-base md:text-xl lg:text-[24px] text-gray-600 font-thin">
+                        {{ $t('home_page.download_section.description') }}
+                    </p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 items-center">
+                    <NuxtLink to="https://apps.apple.com/kh/app/chlat-watch-learn-play/id6465174952" target="_blank">
+                        <img src="/images/Download_on_the_App_Store_Badge.png" alt="" class="h-10 md:h-12"
+                            draggable="false">
+                    </NuxtLink>
+                    <NuxtLink to="https://play.google.com/store/apps/details?id=com.asurraa.chlat&pcampaignid=web_share"
+                        target="_blank">
+                        <img src="/images/Google_Play_Store_badge.png" alt="" class="h-10 md:h-12" draggable="false">
+                    </NuxtLink>
+                    <NuxtLink to="https://chlat.app" target="_blank">
+                        <img src="/images/Use_The_Web_App.png" alt="" class="h-10 md:h-12" draggable="false">
+                    </NuxtLink>
+                </div>
+            </div>
+        </section>
     </main>
 </template>

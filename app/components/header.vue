@@ -33,11 +33,17 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', handleOutsideCli
         </NuxtLink>
 
         <!-- Nav -->
-        <nav class="flex items-center gap-8">
+        <nav class="flex items-center gap-4">
+            <!-- Get the app button -->
+            <NuxtLink :to="localePath('/') + '#get-the-app'">
+                <p class="bg-[#0388D3] text-white px-4 py-2 rounded-xl">
+                    {{ $t('home_page.get_the_app') }}
+                </p>
+            </NuxtLink>
             <!-- Language Switcher -->
             <div class="relative" ref="dropdownRef">
                 <button @click="open = !open"
-                    class="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors text-sm font-medium">
+                    class="flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors text-sm font-medium">
                     <span>{{ currentLocale.flag }}</span>
                     <span>{{ currentLocale.name }}</span>
                     <svg class="w-3.5 h-3.5 text-gray-400 transition-transform duration-200"
