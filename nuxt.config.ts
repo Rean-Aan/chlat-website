@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       { name: 'Suwannaphum', provider: 'google' },
-      { name: 'Inter', provider: 'google' },
+      { name: 'Plus Jakarta Sans', provider: 'google' },
     ],
   },
 

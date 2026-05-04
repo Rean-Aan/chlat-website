@@ -4,13 +4,13 @@
 
 @layer base {
     :lang(en) {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
         line-height: 1.5 !important;
         letter-spacing: 0.01em !important;
     }
 
     :lang(km) {
-        font-family: 'Suwannaphum', serif;
+        font-family: 'Suwannaphum', sans-serif;
         line-height: 1.7 !important;
     }
 }
