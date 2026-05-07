@@ -8,6 +8,7 @@
     "about_us": "About Us",
     "mission": "Mission",
     "contact_us": "Contact Us",
+    "team": "Team",
     "privacy_and_terms": "Privacy and Terms",
     "privacy": "Privacy",
     "terms": "Terms",
@@ -79,5 +80,12 @@
         "your_email": "Your Email",
         "message": "How can we help?",
         "send_message": "Send Message"
+    },
+    "team_page": {
+        "title": "Meet the Chlat Team",
+        "description": "Behind Chlat is a diverse team of developers, teachers, tech talents, and video editors. All proudly based in Cambodia. Each one brings something unique, and together we work to pave The Easy Path To Hard Languages. Get to know us below!",
+        "founders": "Founders",
+        "development": "Development",
+        "content_development": "Content Development"
     }
 }

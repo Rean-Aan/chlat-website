@@ -25,7 +25,9 @@ const localePath = useLocalePath()
                         <NuxtLink :to="localePath('/mission')" class="hover:opacity-100 transition-opacity">{{
                             t('mission') }}</NuxtLink>
                         <NuxtLink :to="localePath('/contact-us')" class="hover:opacity-100 transition-opacity">{{
-                            t('contact_us') }}</NuxtLink>
+                            t('contact_us') }}</NuxtLink> 
+                        <NuxtLink :to="localePath('/team')" class="hover:opacity-100 transition-opacity">{{
+                            t('team') }}</NuxtLink>
                     </div>
                 </div>
 
@@ -36,7 +38,7 @@ const localePath = useLocalePath()
                         <NuxtLink :to="localePath('/privacy')" class="hover:opacity-100 transition-opacity">{{
                             t('privacy') }}</NuxtLink>
                         <NuxtLink :to="localePath('/terms')" class="hover:opacity-100 transition-opacity">{{ t('terms')
-                        }}</NuxtLink>
+                            }}</NuxtLink>
                     </div>
                 </div>
 
