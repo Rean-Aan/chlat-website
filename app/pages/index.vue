@@ -9,7 +9,7 @@ const localePath = useLocalePath()
 <template>
     <main>
         <SectionHero :title="t('home_page.hero.title')" :description="t('home_page.hero.description')"
-            image="/images/fun-learning.png" image-position="right">
+            image="/images/fun-learning-2.png" image-position="right">
             <template #action>
                 <NuxtLink :to="localePath('/') + '#get-the-app'">
                     <p class="bg-[#0388D3] text-white px-4 py-2 rounded-xl">

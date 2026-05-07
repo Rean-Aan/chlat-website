@@ -1,11 +1,11 @@
 ---
 title: Privacy Policy
 description: Privacy policy for the Chlat App
-date: 2026-05-02
-lastmod: 2026-05-02
+date: 23 March 2024
+lastmod: 23 March 2024
 ---
 
-This Privacy Policy describes how we collect, use and protect the personal information of our users and visitors to our website through accessing or using the Website, Services, Apps and/or Content of REAN AAN.
+This Privacy Policy describes how we collect, use and protect the personal information of our users and visitors to our website through accessing or using the Website, Services, Apps and/or Content of Chlat App.
 
 ## 1. Information We Collect
 
@@ -46,5 +46,3 @@ Your use of the Services after these changes means that you accept the revised P
 ## 7. Contact Us
 
 If you would like to contact us with any questions or suggestions, please email us at <contact@chlat.app>.
-
-Chlat App is managed and operated by REAN AAN.

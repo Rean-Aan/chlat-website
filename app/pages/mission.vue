@@ -8,7 +8,7 @@ const { t } = useI18n()
 <template>
     <main>
         <SectionHero :title="t('mission_page.section_1.title')" :description="t('mission_page.section_1.description')"
-            image="/images/fun-learning.png" image-position="right" />
+            image="/images/mission-for-digital.png" image-position="right" />
 
 
         <SectionHero :title="t('mission_page.section_2.title')" :description="t('mission_page.section_2.description')"

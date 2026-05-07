@@ -7,8 +7,6 @@ lastmod: 2026-05-02
 
 The terms and conditions of the Chlat App will outline some of the conditions that users must adhere to to ensure security and the interests of both parties are the learning company and the consumer.
 
-The Chlat App is owned by REAN AAN.
-
 Terms and Conditions cover all uses of all forms and devices.
 
 When a user registers to use Chlat App, the user must first tick the "OK" box.
@@ -39,14 +37,14 @@ All fees are in USD. The payment is non-refundable.
 
 ### 4.1. Service Fee
 
-REAN AAN maintains the right to set the price for the service of using Chlat App. Currently, REAN AAN offers membership plans for users, which are divided into the following two categories:
+We maintains the right to set the price for the service of using Chlat App. Currently, Chlat offers membership plans for users, which are divided into the following two categories:
 
 - Monthly membership plan: **$3 / month**
 - Annual membership plan: **$12 / year**
 
 ### 4.2. Suspension
 
-REAN AAN will suspend or terminate the access to the services of the subscribed users when the term of the plan is completed and the users do not continue to subscribe. This means that after the subscription duration is completed, users can still continue to use Chlat App, but on a free package under certain conditions. If users want to continue using the full service, users need to renew their membership plan.
+We will suspend or terminate the access to the services of the subscribed users when the term of the plan is completed and the users do not continue to subscribe. This means that after the subscription duration is completed, users can still continue to use Chlat App, but on a free package under certain conditions. If users want to continue using the full service, users need to renew their membership plan.
 
 ### 4.3. Payment Method
 
@@ -62,4 +60,4 @@ Please read the Chlat App Privacy Policy carefully for information regarding the
 
 ## 7. Modification of Conditions
 
-REAN AAN reserves the right at its sole discretion to change, modify, add or remove any of these terms, including the entire Privacy Policy, or any part at any time. Check these terms regularly for changes.
+We reserves the right at its sole discretion to change, modify, add or remove any of these terms, including the entire Privacy Policy, or any part at any time. Check these terms regularly for changes.
