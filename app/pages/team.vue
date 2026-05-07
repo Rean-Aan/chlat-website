@@ -16,7 +16,7 @@ const { t } = useI18n()
 <template>
     <section class="h-screen flex items-center justify-center bg-white">
         <div class="mx-auto space-y-4">
-            <div class="flex flex-col gap-4 justify-center items-center text-center">
+            <div class="flex flex-col gap-4 justify-center items-center text-center max-w-2xl mx-auto">
                 <h1 class="text-4xl lg:text-[48px] text-primary font-bold leading-tight">
                     {{ t('team_page.title') }}
                 </h1>

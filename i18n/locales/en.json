@@ -70,11 +70,11 @@
         }
     },
     "contact_us_page": {
-        "title": "Other way to connect",
+        "title": "Ways to Get in Touch",
         "description": "We’re available Monday through Friday, 9am to 5pm Frog time!",
         "email": "Email Us",
-        "our_office": "Our Pound",
-        "our_office_address": "We didn't have a pound yet, but we are in Phnom Penh, Cambodia!",
+        "our_office": "Our Office",
+        "our_office_address": "We didn't have an office yet, but we are in Phnom Penh, Cambodia!",
         "send_us_a_message": "Send Us a Message",
         "your_name": "Your Name",
         "your_email": "Your Email",

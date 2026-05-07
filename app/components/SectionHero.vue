@@ -12,7 +12,7 @@
                 </p>
 
                 <!-- Optional button -->
-                <div v-if="$slots.action" class="mt-8 flex justify-center lg:justify-start">
+                <div v-if="$slots.action" class="mt-8 flex justify-center">
                     <slot name="action" />
                 </div>
             </div>

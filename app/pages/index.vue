@@ -2,13 +2,22 @@
 import SectionHero from '~/components/SectionHero.vue';
 
 const { t } = useI18n()
+const localePath = useLocalePath()
 
 </script>
 
 <template>
     <main>
         <SectionHero :title="t('home_page.hero.title')" :description="t('home_page.hero.description')"
-            image="/images/fun-learning.png" image-position="right" />
+            image="/images/fun-learning.png" image-position="right">
+            <template #action>
+                <NuxtLink :to="localePath('/') + '#get-the-app'">
+                    <p class="bg-[#0388D3] text-white px-4 py-2 rounded-xl">
+                        {{ $t('home_page.get_the_app') }}
+                    </p>
+                </NuxtLink>
+            </template>
+        </SectionHero>
 
         <div class="bg-[#0388D3] p-10 text-center mx-auto">
             <h1 class="text-4xl lg:text-[48px] text-white font-bold leading-tight text-center">
