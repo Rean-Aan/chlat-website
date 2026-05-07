@@ -41,9 +41,10 @@ const { t } = useI18n()
             :description="t('home_page.parental_dashboard.description')" image="/images/parental-dashboard-feature.png"
             image-position="right" />
 
-        <section id="get-the-app" class="min-h-screen flex justify-center items-center bg-[#c7eaff] px-6 py-16">
-            <div class="flex flex-col items-center gap-6 text-center max-w-2xl mx-auto">
-                <img src="/images/lotus-leaf-left.png" alt="" class="w-20 md:w-32">
+        <section id="get-the-app"
+            class="min-h-screen flex flex-col justify-between items-center bg-[#c7eaff] px-6 pt-16">
+            <div class="flex flex-col items-center gap-4 text-center max-w-2xl mx-auto">
+                <!-- <img src="/images/lotus-leaf-left.png" alt="" class="w-20 md:w-32"> -->
                 <div class="flex flex-col gap-2">
                     <h1 class="text-3xl md:text-4xl lg:text-[48px] text-primary font-bold leading-tight">
                         {{ $t('home_page.download_section.title') }}
@@ -66,6 +67,9 @@ const { t } = useI18n()
                     </NuxtLink>
                 </div>
             </div>
+
+            <img src="/images/app-landing-image.png" alt=""
+                class="w-full max-w-xl md:max-w-2xl lg:max-w-4xl object-contain self-center" draggable="false">
         </section>
     </main>
 </template>
