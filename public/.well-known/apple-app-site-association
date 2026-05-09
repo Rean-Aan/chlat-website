@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "357R6QYZ3X.com.reanaan.chlat"
+                ],
+                "paths": [
+                    "*"
+                ],
+                "components": [
+                    {
+                        "/": "/*"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "357R6QYZ3X.com.reanaan.chlat"
+        ]
+    }
+}

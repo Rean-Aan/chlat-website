@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.asurraa.chlat",
+            "sha256_cert_fingerprints": [
+                "22:28:D4:42:7D:EF:DE:03:E4:6E:A0:BA:72:C9:CB:73:8E:8B:26:36:E1:AD:0A:DC:E0:38:47:1D:10:41:EA:4F",
+                "B1:83:CB:C8:8F:9D:15:FC:4B:90:C6:15:64:8F:04:9A:C9:E2:04:74:53:60:DC:B4:9D:48:E4:73:0A:7E:8B:30"
+            ]
+        }
+    }
+]
