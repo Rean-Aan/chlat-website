@@ -71,7 +71,7 @@ const localePath = useLocalePath()
                         target="_blank">
                         <img src="/images/Google_Play_Store_badge.png" alt="" class="h-10 md:h-12" draggable="false">
                     </NuxtLink>
-                    <NuxtLink to="https://chlat.app" target="_blank">
+                    <NuxtLink to="https://web.chlat.app" target="_blank">
                         <img src="/images/Use_The_Web_App.png" alt="" class="h-10 md:h-12" draggable="false">
                     </NuxtLink>
                 </div>
