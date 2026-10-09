@@ -5,6 +5,10 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/i18n', '@nuxt/fonts', '@nuxtjs/tailwindcss', '@nuxt/content'],
 
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
+
   css: ['~/assets/css/main.css'],
 
   fonts: {
