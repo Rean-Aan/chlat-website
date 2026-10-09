@@ -39,8 +39,8 @@ All fees are in USD. The payment is non-refundable.
 
 We maintains the right to set the price for the service of using Chlat App. Currently, Chlat offers membership plans for users, which are divided into the following two categories:
 
-- Monthly membership plan: **$3 / month**
-- Annual membership plan: **$12 / year**
+- Monthly membership plan: **$5 / month**
+- Annual membership plan: **$36 / year**
 
 ### 4.2. Suspension
 
